@@ -1,0 +1,107 @@
+﻿main(model) ::= <<
+import { Component, OnInit } from '@angular/core';
+import { PageEvent } from '@angular/material/paginator';
+import { MatDialog } from '@angular/material/dialog';
+import { mergeMap } from 'rxjs/operators';
+
+import { ModalHelper } from '../core/modal.helper';
+import { StoreService } from '../core/store.service';
+import { Error } from '../core/error.model';
+import { Page } from '../core/page.model';
+import { NoticeHelper } from '../core/notice.helper';
+
+import { $model.Entity.Name$ } from '../$model.Entity.NameKebab$-core/$model.Entity.NameKebab$.model';
+import { $model.Entity.Name$Filter } from '../$model.Entity.NameKebab$-core/$model.Entity.NameKebab$-filter.model';
+import { $model.Entity.Name$Service } from '../$model.Entity.NameKebab$-core/$model.Entity.NameKebab$.service';
+import { $model.Entity.Name$EditComponent } from './$model.Entity.NameKebab$-edit.component';
+
+class $model.Entity.Name$ListState {
+    pageSize = 10;
+    pageIndex = 0;
+    filter = new $model.Entity.Name$Filter();
+}
+
+@Component({
+    selector: 'app-$model.Entity.NameKebab$-list',
+    templateUrl: './$model.Entity.NameKebab$-list.component.html',
+    styleUrls: ['./$model.Entity.NameKebab$-list.component.scss']
+})
+export class $model.Entity.Name$ListComponent implements OnInit {
+    content: Page<$model.Entity.Name$>;
+    state: $model.Entity.Name$ListState;
+    pageSizeOptions = [10, 20];
+    columns = [
+        $model.Entity.AllFields:field(); separator="\r\n"$
+        'action'
+    ];
+
+    constructor(
+        private dialog: MatDialog,
+        private modalHelper: ModalHelper,
+        private $model.Entity.NameLower$Service: $model.Entity.Name$Service,
+        private storeService: StoreService,
+        private noticeHelper: NoticeHelper
+        ) {
+        this.state = this.storeService.get('$model.Entity.NameLower$ListState', new $model.Entity.Name$ListState());
+    }
+
+    ngOnInit() {
+        this.get$model.Entity.PluralName$();
+    }
+
+    private get$model.Entity.PluralName$() {
+        this.$model.Entity.NameLower$Service.get$model.Entity.PluralName$({
+            pageIndex: this.state.pageIndex,
+            pageSize: this.state.pageSize,
+            filter: this.state.filter
+        }).subscribe(content => this.content = content);
+    }
+
+    onSearch() {
+        this.get$model.Entity.PluralName$();
+    }
+
+    onReset() {
+        this.state.filter.text = null;
+        this.get$model.Entity.PluralName$();
+    }
+
+    onCreate() {
+        $model.Entity.Name$EditComponent.show(this.dialog, 0).subscribe(() => {
+            this.get$model.Entity.PluralName$();
+        });
+    }
+
+    onEdit(id: number) {
+        $model.Entity.Name$EditComponent.show(this.dialog, id).subscribe(() => {
+            this.get$model.Entity.PluralName$();
+        });
+    }
+
+    onDelete($model.Entity.IdField.NameLower$: $model.Entity.IdField.JsTypeName$) {
+        this.modalHelper.confirmDelete()
+            .pipe(
+                mergeMap(() => this.$model.Entity.NameLower$Service.delete$model.Entity.Name$({ $model.Entity.IdField.NameLower$ }))
+            )
+            .subscribe(() => this.get$model.Entity.PluralName$(),
+                error => this.onError(error));
+    }
+
+    onPage(page: PageEvent) {
+        this.state.pageIndex = page.pageIndex;
+        this.state.pageSize = page.pageSize;
+        this.get$model.Entity.PluralName$();
+    }
+
+    onError(error: Error) {
+        if (error) {
+            this.noticeHelper.showError(error);
+        }
+    }
+}
+
+>>
+
+field(field) ::= <<
+'$field.NameLower$',
+>>

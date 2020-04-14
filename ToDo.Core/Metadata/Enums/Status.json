@@ -1,0 +1,29 @@
+{
+  "id": "2adb4aa2-cd85-4051-9426-490733446e15",
+  "name": "Status",
+  "displayName": "Status",
+  "values": [
+    {
+      "id": "1c2e0b9f-f1ca-41e4-93da-418c7ffc8c20",
+      "name": "Done",
+      "displayName": "Done",
+      "value": 1,
+      "properties": {}
+    },
+    {
+      "id": "68bc62c8-9ef9-492e-8462-518197764d8d",
+      "name": "Undone",
+      "displayName": "Undone",
+      "value": 0,
+      "properties": {}
+    },
+    {
+      "id": "ff565b82-65a4-4503-9883-309fab3f3eb6",
+      "name": "InProcess",
+      "displayName": "In Process",
+      "value": 2,
+      "properties": {}
+    }
+  ],
+  "properties": {}
+}

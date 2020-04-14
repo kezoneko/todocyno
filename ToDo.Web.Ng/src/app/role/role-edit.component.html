@@ -1,0 +1,17 @@
+<h1 mat-dialog-title>Role <app-role-show [value]="role"></app-role-show></h1>
+
+<mat-dialog-content *ngIf="role" class="mat-dialog-content-edit">
+
+    <form [formGroup]="roleForm">
+        <mat-form-field>
+            <mat-label>Name</mat-label>
+            <app-text-edit formControlName="name" name="name" placeholder="Name"></app-text-edit>
+            <mat-error>{{ error?.modelState?.name | modelError }}</mat-error>
+        </mat-form-field>
+    </form>
+
+</mat-dialog-content>
+<mat-dialog-actions class="mat-dialog-actions-edit">
+    <button mat-raised-button mat-dialog-close>Cancel</button>
+    <button mat-raised-button color="primary" (click)="onSave()" cdkFocusInitial>Save</button>
+</mat-dialog-actions>

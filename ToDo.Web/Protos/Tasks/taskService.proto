@@ -1,0 +1,59 @@
+syntax = "proto3";
+
+import "google/protobuf/timestamp.proto";
+import "google/protobuf/duration.proto";
+import "Protos/common.proto";
+import "Protos/Tasks/taskModel.proto";
+import "Protos/Tasks/taskFilter.proto";
+import "Protos/Status/status.proto";
+
+option csharp_namespace = "ToDo.Web.Protos.Tasks";
+
+service TaskService {
+    rpc GetTasks(GetTasksRequest) returns (TaskPageModel);
+    rpc GetTask(GetTaskRequest) returns (Task);
+    rpc UpdateTask(UpdateTaskRequest) returns (Empty);
+    rpc CreateTask(CreateTaskRequest) returns (CreatedEntity);
+    rpc DeleteTask(DeleteTaskRequest) returns (Empty);
+}
+
+message CreateTaskRequest {
+    oneof titleOneOf {
+        string title = 6;
+    }
+    oneof statusOneOf {
+        Status status = 7;
+    }
+}
+
+message DeleteTaskRequest {
+    int32 id = 1;
+}
+
+message GetTaskRequest {
+    int32 id = 1;
+}
+
+message GetTasksRequest {
+    oneof pageIndexOneOf {
+        int32 pageIndex = 1;
+    }
+    oneof pageSizeOneOf {
+        int32 pageSize = 2;
+    }
+    TaskFilter filter = 3;
+    string orderBy = 4;
+    oneof orderDirectionOneOf {
+        OrderDirection orderDirection = 5;
+    }
+}
+
+message UpdateTaskRequest {
+    int32 id = 1;
+    oneof titleOneOf {
+        string title = 6;
+    }
+    oneof statusOneOf {
+        Status status = 7;
+    }
+}

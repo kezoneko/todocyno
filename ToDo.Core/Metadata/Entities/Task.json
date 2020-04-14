@@ -1,0 +1,36 @@
+{
+  "id": "790e0f3e-4fb0-4add-bc84-c74c464da35b",
+  "name": "Task",
+  "pluralName": "Tasks",
+  "displayName": "Task",
+  "pluralDisplayName": "Tasks",
+  "isAbstract": false,
+  "baseEntityId": "2819f292-9f78-4e87-88ed-274c4133982a",
+  "fields": [
+    {
+      "id": "6528b08e-4963-43ec-888e-5c74595501da",
+      "name": "Title",
+      "displayName": "Title",
+      "type": "String",
+      "size": null,
+      "entityId": null,
+      "isRequired": true,
+      "enumId": null,
+      "isSystem": false,
+      "properties": {}
+    },
+    {
+      "id": "e6dbb276-9fcd-47e2-9e8e-4da8333a1143",
+      "name": "Status",
+      "displayName": "Status",
+      "type": null,
+      "size": null,
+      "entityId": null,
+      "isRequired": true,
+      "enumId": "2adb4aa2-cd85-4051-9426-490733446e15",
+      "isSystem": false,
+      "properties": {}
+    }
+  ],
+  "properties": {}
+}

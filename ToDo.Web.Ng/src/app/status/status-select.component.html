@@ -1,0 +1,4 @@
+<mat-select [(ngModel)]="innerValue" [disabled]="disabled" [placeholder]="placeholder">
+    <mat-option [value]="null"></mat-option>
+    <mat-option [value]="status.key" *ngFor="let status of Status | enumkeys">{{ StatusDisplay[status.key] }}</mat-option>
+</mat-select>

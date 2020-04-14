@@ -1,0 +1,21 @@
+<h1 mat-dialog-title>Task <app-task-show [value]="task"></app-task-show></h1>
+<mat-dialog-content *ngIf="task" class="mat-dialog-content-edit">
+
+    <form [formGroup]="taskForm">
+        <mat-form-field>
+            <mat-label>Title</mat-label>
+            <app-text-edit formControlName="title" name="title" placeholder="Title"></app-text-edit>
+            <mat-error>{{ error?.modelState?.title | modelError }}</mat-error>
+        </mat-form-field>
+        <mat-form-field>
+            <mat-label>Status</mat-label>
+            <app-status-select formControlName="status" name="status" placeholder="Status"></app-status-select>
+            <mat-error>{{ error?.modelState?.status | modelError }}</mat-error>
+        </mat-form-field>
+    </form>
+
+</mat-dialog-content>
+<mat-dialog-actions class="mat-dialog-actions-edit">
+    <button mat-raised-button mat-dialog-close>Cancel</button>
+    <button mat-raised-button color="primary" (click)="onSave()" cdkFocusInitial>Save</button>
+</mat-dialog-actions>

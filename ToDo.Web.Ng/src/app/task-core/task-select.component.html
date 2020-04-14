@@ -1,0 +1,4 @@
+<mat-select [(ngModel)]="innerValue" [disabled]="disabled" [placeholder]="placeholder">
+    <mat-option [value]="null"></mat-option>
+    <mat-option [value]="task.id" *ngFor="let task of tasks">{{ task.title }}</mat-option>
+</mat-select>
