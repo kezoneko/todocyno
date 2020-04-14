@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
@@ -12,6 +12,7 @@ using ToDo.Web.Protos.Tasks;
 using Grpc.Core;
 using MediatR;
 using Microsoft.AspNetCore.Authorization;
+using Task = ToDo.Web.Protos.Tasks.Task;
 
 namespace ToDo.Web.Services
 {

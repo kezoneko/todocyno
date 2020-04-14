@@ -1,10 +1,11 @@
-using System.Linq;
+﻿using System.Linq;
 using System.Threading;
 using System.Threading.Tasks;
 using Cynosura.Core.Data;
 using ToDo.Core.Entities;
 using MediatR;
 using Microsoft.EntityFrameworkCore;
+using Task = ToDo.Core.Entities.Task;
 
 namespace ToDo.Core.Requests.Tasks
 {

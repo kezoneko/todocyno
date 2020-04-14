@@ -1,10 +1,11 @@
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Text;
 using System.Threading.Tasks;
 using Cynosura.Core.Services;
 using ToDo.Core.Entities;
 using Microsoft.AspNetCore.Identity;
+using Task = ToDo.Core.Entities.Task;
 
 namespace ToDo.Core.Requests.Users
 {

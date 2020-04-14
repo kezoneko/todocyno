@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using System.Linq;
 using System.Threading;
 using System.Threading.Tasks;
@@ -7,6 +7,7 @@ using Cynosura.Core.Data;
 using ToDo.Core.Entities;
 using ToDo.Core.Infrastructure;
 using MediatR;
+using Task = ToDo.Core.Entities.Task;
 
 namespace ToDo.Core.Requests.Tasks
 {

@@ -1,4 +1,4 @@
-using System.Linq;
+﻿using System.Linq;
 using System.Threading;
 using System.Threading.Tasks;
 using AutoMapper;
@@ -8,6 +8,7 @@ using ToDo.Core.Entities;
 using ToDo.Core.Requests.Tasks.Models;
 using MediatR;
 using Microsoft.EntityFrameworkCore;
+using Task = ToDo.Core.Entities.Task;
 
 namespace ToDo.Core.Requests.Tasks
 {
