@@ -1,7 +1,3 @@
-using System;
-using System.Collections.Generic;
-using System.Text;
-
 namespace ToDo.Core.Infrastructure
 {
     public class CreatedEntity<T>

@@ -1,6 +1,3 @@
-using System;
-using System.Collections.Generic;
-using System.Text;
 using AutoMapper;
 using ToDo.Core.Entities;
 using ToDo.Core.Requests.Account;

@@ -7,7 +7,6 @@ using Cynosura.Core.Services.Models;
 using ToDo.Core.Requests.Tasks;
 using ToDo.Core.Requests.Tasks.Models;
 using ToDo.Web.Protos.Tasks;
-using Task = ToDo.Core.Requests.Tasks.Models;
 
 namespace ToDo.Web.AutoMapper
 {
@@ -28,12 +27,12 @@ namespace ToDo.Web.AutoMapper
                 .ForMember(dest => dest.Title, opt => opt.Condition(src => src.TitleOneOfCase == UpdateTaskRequest.TitleOneOfOneofCase.Title))
                 .ForMember(dest => dest.Status, opt => opt.Condition(src => src.StatusOneOfCase == UpdateTaskRequest.StatusOneOfOneofCase.Status));
 
-            CreateMap<TaskModel, Task>()
+            CreateMap<TaskModel, TaskStatusModel>()
                 .ForMember(dest => dest.Title, opt => opt.Condition(src => src.Title != default))
                 .ForMember(dest => dest.Status, opt => opt.Condition(src => src.Status != default));
             CreateMap<PageModel<TaskModel>, TaskPageModel>()                
                 .ForMember(dest => dest.PageItems, opt => opt.Ignore())
-                .AfterMap((src, dest, rc) => dest.PageItems.AddRange(rc.Mapper.Map<IEnumerable<Task>>(src.PageItems)));
+                .AfterMap((src, dest, rc) => dest.PageItems.AddRange(rc.Mapper.Map<IEnumerable<Protos.Tasks.Task>>(src.PageItems)));
         }
     }
 }
