@@ -1,0 +1,4 @@
+C:\Users\nikolaev_kn\source\repos\todocyno\ToDo.Data\obj\Debug\netcoreapp3.1\ToDo.Data.csprojAssemblyReference.cache
+C:\Users\nikolaev_kn\source\repos\todocyno\ToDo.Data\obj\Debug\netcoreapp3.1\ToDo.Data.csproj.CoreCompileInputs.cache
+C:\Users\nikolaev_kn\source\repos\todocyno\ToDo.Data\obj\Debug\netcoreapp3.1\ToDo.Data.AssemblyInfoInputs.cache
+C:\Users\nikolaev_kn\source\repos\todocyno\ToDo.Data\obj\Debug\netcoreapp3.1\ToDo.Data.AssemblyInfo.cs

@@ -57,5 +57,12 @@ namespace ToDo.Web.Controllers
         {
             return await _mediator.Send(deleteTask);
         }
+
+        [Authorize("StatusTask")]
+        [HttpPost("SetTaskStatusCommand")]
+        public async Task<Unit> SetTaskStatusCommandAsync([FromBody] SetTaskStatusCommand setTaskStatusCommand)
+        {
+            return await _mediator.Send(setTaskStatusCommand);
+        }
     }
 }
