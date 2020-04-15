@@ -7,6 +7,7 @@ using Cynosura.Core.Services.Models;
 using ToDo.Core.Requests.Tasks;
 using ToDo.Core.Requests.Tasks.Models;
 using ToDo.Web.Protos.Tasks;
+using Task = ToDo.Core.Requests.Tasks.Models;
 
 namespace ToDo.Web.AutoMapper
 {

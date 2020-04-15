@@ -2,3 +2,11 @@ C:\Users\nikolaev_kn\source\repos\todocyno\ToDo.Data\obj\Debug\netcoreapp3.1\ToD
 C:\Users\nikolaev_kn\source\repos\todocyno\ToDo.Data\obj\Debug\netcoreapp3.1\ToDo.Data.csproj.CoreCompileInputs.cache
 C:\Users\nikolaev_kn\source\repos\todocyno\ToDo.Data\obj\Debug\netcoreapp3.1\ToDo.Data.AssemblyInfoInputs.cache
 C:\Users\nikolaev_kn\source\repos\todocyno\ToDo.Data\obj\Debug\netcoreapp3.1\ToDo.Data.AssemblyInfo.cs
+C:\Users\nikolaev_kn\source\repos\todocyno\ToDo.Data\bin\Debug\netcoreapp3.1\ToDo.Data.deps.json
+C:\Users\nikolaev_kn\source\repos\todocyno\ToDo.Data\bin\Debug\netcoreapp3.1\ToDo.Data.dll
+C:\Users\nikolaev_kn\source\repos\todocyno\ToDo.Data\bin\Debug\netcoreapp3.1\ToDo.Data.pdb
+C:\Users\nikolaev_kn\source\repos\todocyno\ToDo.Data\bin\Debug\netcoreapp3.1\ToDo.Core.dll
+C:\Users\nikolaev_kn\source\repos\todocyno\ToDo.Data\bin\Debug\netcoreapp3.1\ToDo.Core.pdb
+C:\Users\nikolaev_kn\source\repos\todocyno\ToDo.Data\obj\Debug\netcoreapp3.1\ToDo.Data.csproj.CopyComplete
+C:\Users\nikolaev_kn\source\repos\todocyno\ToDo.Data\obj\Debug\netcoreapp3.1\ToDo.Data.dll
+C:\Users\nikolaev_kn\source\repos\todocyno\ToDo.Data\obj\Debug\netcoreapp3.1\ToDo.Data.pdb

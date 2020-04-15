@@ -2,3 +2,11 @@ C:\Users\nikolaev_kn\source\repos\todocyno\ToDo.Infrastructure\obj\Debug\netcore
 C:\Users\nikolaev_kn\source\repos\todocyno\ToDo.Infrastructure\obj\Debug\netcoreapp3.1\ToDo.Infrastructure.csproj.CoreCompileInputs.cache
 C:\Users\nikolaev_kn\source\repos\todocyno\ToDo.Infrastructure\obj\Debug\netcoreapp3.1\ToDo.Infrastructure.AssemblyInfoInputs.cache
 C:\Users\nikolaev_kn\source\repos\todocyno\ToDo.Infrastructure\obj\Debug\netcoreapp3.1\ToDo.Infrastructure.AssemblyInfo.cs
+C:\Users\nikolaev_kn\source\repos\todocyno\ToDo.Infrastructure\bin\Debug\netcoreapp3.1\ToDo.Infrastructure.deps.json
+C:\Users\nikolaev_kn\source\repos\todocyno\ToDo.Infrastructure\bin\Debug\netcoreapp3.1\ToDo.Infrastructure.dll
+C:\Users\nikolaev_kn\source\repos\todocyno\ToDo.Infrastructure\bin\Debug\netcoreapp3.1\ToDo.Infrastructure.pdb
+C:\Users\nikolaev_kn\source\repos\todocyno\ToDo.Infrastructure\bin\Debug\netcoreapp3.1\ToDo.Core.dll
+C:\Users\nikolaev_kn\source\repos\todocyno\ToDo.Infrastructure\bin\Debug\netcoreapp3.1\ToDo.Core.pdb
+C:\Users\nikolaev_kn\source\repos\todocyno\ToDo.Infrastructure\obj\Debug\netcoreapp3.1\ToDo.Infrastructure.csproj.CopyComplete
+C:\Users\nikolaev_kn\source\repos\todocyno\ToDo.Infrastructure\obj\Debug\netcoreapp3.1\ToDo.Infrastructure.dll
+C:\Users\nikolaev_kn\source\repos\todocyno\ToDo.Infrastructure\obj\Debug\netcoreapp3.1\ToDo.Infrastructure.pdb

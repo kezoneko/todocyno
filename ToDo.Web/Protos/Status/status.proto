@@ -3,7 +3,7 @@ syntax = "proto3";
 option csharp_namespace = "ToDo.Web.Protos.Status";
 
 enum Status {
-    Done = 1;
     Undone = 0;
+    Done = 1;
     InProcess = 2;
 }

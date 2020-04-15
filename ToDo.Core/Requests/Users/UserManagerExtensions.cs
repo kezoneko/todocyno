@@ -5,7 +5,8 @@ using System.Threading.Tasks;
 using Cynosura.Core.Services;
 using ToDo.Core.Entities;
 using Microsoft.AspNetCore.Identity;
-using Task = ToDo.Core.Entities.Task;
+using Task = System.Threading.Tasks.Task;
+/* using Task = ToDo.Core.Entities.Task; */
 
 namespace ToDo.Core.Requests.Users
 {

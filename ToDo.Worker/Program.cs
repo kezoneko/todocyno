@@ -11,6 +11,7 @@ using ToDo.Data;
 using ToDo.Worker.Infrastructure;
 using ToDo.Core;
 using ToDo.Infrastructure;
+using Task = System.Threading.Tasks.Task;
 
 namespace ToDo.Worker
 {

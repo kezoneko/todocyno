@@ -2,6 +2,7 @@ using System.Threading.Tasks;
 using ToDo.Core.Entities;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
+using Task = System.Threading.Tasks.Task;
 
 namespace ToDo.Data
 {
