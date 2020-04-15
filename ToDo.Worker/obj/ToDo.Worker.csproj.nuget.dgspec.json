@@ -1,0 +1,316 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\nikolaev_kn\\source\\repos\\todocyno\\ToDo.Worker\\ToDo.Worker.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\nikolaev_kn\\source\\repos\\todocyno\\ToDo.Core\\ToDo.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\nikolaev_kn\\source\\repos\\todocyno\\ToDo.Core\\ToDo.Core.csproj",
+        "projectName": "ToDo.Core",
+        "projectPath": "C:\\Users\\nikolaev_kn\\source\\repos\\todocyno\\ToDo.Core\\ToDo.Core.csproj",
+        "packagesPath": "C:\\Users\\nikolaev_kn\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\nikolaev_kn\\source\\repos\\todocyno\\ToDo.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\nikolaev_kn\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Cynosura.Core": {
+              "target": "Package",
+              "version": "[0.2.1-b157, )"
+            },
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[8.6.1, )"
+            },
+            "MediatR": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.Extensions.Identity.Stores": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\nikolaev_kn\\source\\repos\\todocyno\\ToDo.Data\\ToDo.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\nikolaev_kn\\source\\repos\\todocyno\\ToDo.Data\\ToDo.Data.csproj",
+        "projectName": "ToDo.Data",
+        "projectPath": "C:\\Users\\nikolaev_kn\\source\\repos\\todocyno\\ToDo.Data\\ToDo.Data.csproj",
+        "packagesPath": "C:\\Users\\nikolaev_kn\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\nikolaev_kn\\source\\repos\\todocyno\\ToDo.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\nikolaev_kn\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Users\\nikolaev_kn\\source\\repos\\todocyno\\ToDo.Core\\ToDo.Core.csproj": {
+                "projectPath": "C:\\Users\\nikolaev_kn\\source\\repos\\todocyno\\ToDo.Core\\ToDo.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Cynosura.EF": {
+              "target": "Package",
+              "version": "[0.2.1-b157, )"
+            },
+            "IdentityServer4.EntityFramework.Storage": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
+            "Microsoft.Extensions.Logging.Abstractions": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\nikolaev_kn\\source\\repos\\todocyno\\ToDo.Infrastructure\\ToDo.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\nikolaev_kn\\source\\repos\\todocyno\\ToDo.Infrastructure\\ToDo.Infrastructure.csproj",
+        "projectName": "ToDo.Infrastructure",
+        "projectPath": "C:\\Users\\nikolaev_kn\\source\\repos\\todocyno\\ToDo.Infrastructure\\ToDo.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\nikolaev_kn\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\nikolaev_kn\\source\\repos\\todocyno\\ToDo.Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\nikolaev_kn\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Users\\nikolaev_kn\\source\\repos\\todocyno\\ToDo.Core\\ToDo.Core.csproj": {
+                "projectPath": "C:\\Users\\nikolaev_kn\\source\\repos\\todocyno\\ToDo.Core\\ToDo.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\nikolaev_kn\\source\\repos\\todocyno\\ToDo.Worker\\ToDo.Worker.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\nikolaev_kn\\source\\repos\\todocyno\\ToDo.Worker\\ToDo.Worker.csproj",
+        "projectName": "ToDo.Worker",
+        "projectPath": "C:\\Users\\nikolaev_kn\\source\\repos\\todocyno\\ToDo.Worker\\ToDo.Worker.csproj",
+        "packagesPath": "C:\\Users\\nikolaev_kn\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\nikolaev_kn\\source\\repos\\todocyno\\ToDo.Worker\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\nikolaev_kn\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Users\\nikolaev_kn\\source\\repos\\todocyno\\ToDo.Core\\ToDo.Core.csproj": {
+                "projectPath": "C:\\Users\\nikolaev_kn\\source\\repos\\todocyno\\ToDo.Core\\ToDo.Core.csproj"
+              },
+              "C:\\Users\\nikolaev_kn\\source\\repos\\todocyno\\ToDo.Data\\ToDo.Data.csproj": {
+                "projectPath": "C:\\Users\\nikolaev_kn\\source\\repos\\todocyno\\ToDo.Data\\ToDo.Data.csproj"
+              },
+              "C:\\Users\\nikolaev_kn\\source\\repos\\todocyno\\ToDo.Infrastructure\\ToDo.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\nikolaev_kn\\source\\repos\\todocyno\\ToDo.Infrastructure\\ToDo.Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.Extensions.Configuration.CommandLine": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
+            "Microsoft.Extensions.Configuration.EnvironmentVariables": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
+            "Microsoft.Extensions.Hosting": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
+            "Microsoft.Extensions.Logging.Configuration": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
+            "Microsoft.Extensions.Options.ConfigurationExtensions": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
+            "Quartz": {
+              "target": "Package",
+              "version": "[3.0.7, )"
+            },
+            "Quartz.Plugins": {
+              "target": "Package",
+              "version": "[3.0.7, )"
+            },
+            "Quartz.Serialization.Json": {
+              "target": "Package",
+              "version": "[3.0.7, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
