@@ -1,6 +1,6 @@
 <mat-nav-list>
     <a mat-list-item [routerLink]="['/']" (click)="collapse()" [routerLinkActive]="['link-active']"
-        [routerLinkActiveOptions]="{ exact: true }">
+       [routerLinkActiveOptions]="{ exact: true }">
         <mat-icon matListIcon>home</mat-icon>
         <span>Home</span>
     </a>
@@ -8,4 +8,5 @@
         <mat-icon matListIcon>{{ item.icon }}</mat-icon>
         <span>{{ item.name }}</span>
     </a>
+    <pre>{{ menu | json }}</pre>
 </mat-nav-list>

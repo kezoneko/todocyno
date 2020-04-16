@@ -34,8 +34,8 @@ namespace ToDo.Core.Requests.Tasks
                 .FirstOrDefaultAsync();
             if (task != null)
             {
-                _mapper.Map(request, task);
-                await _unitOfWork.CommitAsync();
+                _mapper.Map(request, task); // change status
+                await _unitOfWork.CommitAsync(); // commit to db
             }
             return Unit.Value;
         }

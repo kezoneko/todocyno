@@ -30,4 +30,8 @@
    <ItemGroup>
     <Protobuf Include="Protos\**\*.proto" />
   </ItemGroup>
+
+   <ItemGroup>
+     <Folder Include="Views\" />
+   </ItemGroup>
 </Project>

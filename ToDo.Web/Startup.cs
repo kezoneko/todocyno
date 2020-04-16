@@ -163,7 +163,8 @@ namespace ToDo.Web
             app.UseAuthorization();
             app.UseEndpoints(endpoints =>
             {
-                endpoints.MapControllerRoute("default", "{controller=Home}/{action=Index}/{id?}");
+                //endpoints.MapControllerRoute("default", "{controller=Home}/{action=Index}/{id?}");
+                endpoints.MapControllerRoute("default", "{controller=Task}/{action=Api}/{GetTasks}");
                 endpoints.MapRazorPages();
                 var provider = new ConfigurationProvider<IEndpointRouteBuilder>();
                 provider.Configure(endpoints);

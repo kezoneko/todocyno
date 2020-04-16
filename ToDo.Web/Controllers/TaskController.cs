@@ -62,7 +62,7 @@ namespace ToDo.Web.Controllers
         [HttpPost("SetTaskStatusCommand")]
         public async Task<Unit> SetTaskStatusCommandAsync([FromBody] SetTaskStatusCommand setTaskStatusCommand)
         {
-            return await _mediator.Send(setTaskStatusCommand);
+            return await _mediator.Send(setTaskStatusCommand); // run SetTaskStatusCommand
         }
     }
 }

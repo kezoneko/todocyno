@@ -6,4 +6,3 @@ C:\Users\nikolaev_kn\source\repos\todocyno\ToDo.Core\bin\Debug\netcoreapp3.1\ToD
 C:\Users\nikolaev_kn\source\repos\todocyno\ToDo.Core\bin\Debug\netcoreapp3.1\ToDo.Core.pdb
 C:\Users\nikolaev_kn\source\repos\todocyno\ToDo.Core\obj\Debug\netcoreapp3.1\ToDo.Core.dll
 C:\Users\nikolaev_kn\source\repos\todocyno\ToDo.Core\obj\Debug\netcoreapp3.1\ToDo.Core.pdb
-C:\Users\nikolaev_kn\source\repos\todocyno\ToDo.Core\obj\Debug\netcoreapp3.1\ToDo.Core.csprojAssemblyReference.cache
